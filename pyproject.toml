@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpr_yaneury"
+authors = [
+    {name = "Yaneury Fermin", email = "fermin.yaneury@gmail.com"},
+]
+description = "[C]Make [P]roject [R]unner"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["cmake", "runner"]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+dynamic = ["version"]
